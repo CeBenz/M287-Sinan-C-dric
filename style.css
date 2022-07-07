@@ -1,3 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 
+.logo{
+    width: 150px;
+}
 
+.container-fluid{
+    margin: 30px;
+}
+
+main{
+    margin: 72px;
+}
+
+.separator {
+    width: 100%;
+    height: 0;
+    padding: 64px 0;
+}
+
+.center_elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.instagram {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn btn-primary {
+    color: #009fe3;
+}
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    padding: 0 32px 0 0;
+}
+
+.copy {
+    padding: 0 0 16px 0;
+    font-size: 14px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin: 0 !important;
+}
+
+div#navbarTogglerDemo03 {
+    margin: 32px 0 0 0;
+}
+
+div#navbarTogglerDemo03.collapse.navbar-collapse {
+    padding: 0 0 28px 0;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 991px) {
+    .logo{
+        width: 100px;
+    }
+    .separator {
+        padding: 48px 0;
+    }
+
+    div#navbarTogglerDemo03.collapse.navbar-collapse {
+        padding: 0;
+    }
 }
